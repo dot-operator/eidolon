@@ -1,0 +1,540 @@
+// sp_a1_beginning
+"music.beginning_intro"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"	"1.0"
+	
+	"wave"	"#music/0_intro.wav"
+}
+
+"music.beginning_0_b"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"	"1.0"
+	"wave"	"#music/0_base0_lp.wav"
+}
+"music.beginning_0_x1"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"	"1.0"
+	
+	"wave"	"*music/0_drum_lp1.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.beginning_0_b"
+			}
+			"duration_div"
+			{
+				"input2" "17"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "160"
+			}
+			"occlusion"
+			{
+				"input_scalar" "0.5"
+			}
+		}
+	}
+}
+"music.beginning_0_x2"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"	"1.0"
+	
+	"wave"	"*music/0_drum_lp2.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.beginning_0_b"
+			}
+			"duration_div"
+			{
+				"input2" "17"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "160"
+			}
+			"occlusion"
+			{
+				"input_scalar" "0.5"
+			}
+		}
+	}
+}
+
+// First Cube Stacking
+"music.blueroom_a"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"1.0"
+	
+	"wave"	"*music/grp2_bass1_lp.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_global_bpm_quantize"
+			"bpm"
+			{
+				"input2" "118"	
+			}
+			"beats"
+			{
+				"input2" "16"	
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "160"
+			}
+			"occlusion"
+			{
+				"input_scalar" "0.5"
+			}
+		}
+	}
+}
+
+"music.blueroom_b"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"1.0"
+	
+	"wave"	"*music/grp1_bass0_lp.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_global_bpm_quantize"
+			"bpm"
+			{
+				"input2" "118"	
+			}
+			"beats"
+			{
+				"input2" "16"	
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "160"
+			}
+			"occlusion"
+			{
+				"input_scalar" "0.5"
+			}
+		}
+	}
+}
+
+// lobby
+"music.start"{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"0.42"
+	
+	"wave"	"#ambient/outro.wav"
+}
+"music.eid_base0"{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"1.0"
+	
+	"wave"	"*music/grp0_bass_lp.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_global_bpm_quantize"
+			"bpm"
+			{
+				"input2" "118"	
+			}
+			"beats"
+			{
+				"input2" "16"	
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "160"
+			}
+			"occlusion"
+			{
+				"input_scalar" "0.5"
+			}
+		}
+	}
+}
+"music.eid_relay0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"0.95"
+
+	"wave"	"*music/grp0_laser_lp.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_global_bpm_quantize"
+			"bpm"
+			{
+				"input2" "118"	
+			}
+			"beats"
+			{
+				"input2" "16"	
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "160"
+			}
+			"occlusion"
+			{
+				"input_scalar" "0.5"
+			}
+		}
+	}
+}
+
+"music.eid_relay1"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"1.0"
+
+	"wave"	"*music/grp0_relay_lp.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_global_bpm_quantize"
+			"bpm"
+			{
+				"input2" "118"	
+			}
+			"beats"
+			{
+				"input2" "16"	
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "160"
+			}
+			"occlusion"
+			{
+				"input_scalar" "0.5"
+			}
+		}
+	}
+}
+
+"music.eid_relay2"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_100dB"
+	"volume"		"1.0"
+
+	"wave"	"*music/perc_layer1.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_global_bpm_quantize"
+			"bpm"
+			{
+				"input2" "118"	
+			}
+			"beats"
+			{
+				"input2" "16"	
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "160"
+			}
+			"occlusion"
+			{
+				"input_scalar" "0.5"
+			}
+		}
+	}
+}
+"music.eid_relay3"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_85dB"
+	"volume"		"1.0"
+
+	"wave"	"*music/grp1_bass1_lp.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_global_bpm_quantize"
+			"bpm"
+			{
+				"input2" "118"	
+			}
+			"beats"
+			{
+				"input2" "16"	
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "160"
+			}
+			"occlusion"
+			{
+				"input_scalar" "0.5"
+			}
+		}
+	}
+}
+// This one needs to come on last.
+"music.eid_relay4"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_100db"
+	"volume"		"1.0"
+
+	"wave"	"*music/piano_layer.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_global_bpm_quantize"
+			"bpm"
+			{
+				"input2" "118"	
+			}
+			"beats"
+			{
+				"input2" "16"	
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "160"
+			}
+			"occlusion"
+			{
+				"input_scalar" "0.5"
+			}
+		}
+	}
+}
+
+
+// SP_A3_FUNK_DETAIL
+"music.funk_a"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_70dB"
+	"volume"		"0.8"
+	
+	"wave"	"*music/grp2_bass1_lp.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_global_bpm_quantize"
+			"bpm"
+			{
+				"input2" "118"	
+			}
+			"beats"
+			{
+				"input2" "16"	
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "160"
+			}
+			"occlusion"
+			{
+				"input_scalar" "0.5"
+			}
+		}
+	}
+}
+
+"music.funk_b"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"1.0"
+	
+	"wave"	"*music/grp1_bass1_lp.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_global_bpm_quantize"
+			"bpm"
+			{
+				"input2" "118"	
+			}
+			"beats"
+			{
+				"input2" "16"	
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "160"
+			}
+			"occlusion"
+			{
+				"input_scalar" "0.5"
+			}
+		}
+	}
+}

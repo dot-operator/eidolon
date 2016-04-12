@@ -1,0 +1,31 @@
+def CompareWord( word1, word2 ):
+	numSimilar = 0
+	for i in range(len(word1)):
+		if word1.index(i) == word2.index(i):
+			numSimilar += 1
+	return numSimilar
+
+def CheckWords():
+	candidates = []
+	input = ""
+	while input != "_":
+		input = raw_input("Enter the next word (or underscore to finish): ")
+		if input != "_":
+			candidates.append(input)
+
+
+	for candidate in candidates:
+		curWord = candidate
+		numOccurances = raw_input("How many times does " + candidate + " appear?")
+		candidates.remove(candidate)
+		for word in candidates:
+			if numOcurrances == 0 and CompareWord( word, curWord) != 0:
+				# No letters in this one should appear in the remaining words. Reject them if they do.
+				candidates.remove(word)
+			if numOccurances != 0:
+				if CompareWord( word, curWord) != numOccurances:
+					candidates.remove(word)
+		if len(candidates) < 2:
+			print candidates.index(0)
+
+CheckWords()

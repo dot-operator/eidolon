@@ -1,0 +1,85 @@
+"eidolon_lobby"
+{
+	"dsp"	"105"
+
+	"playlooping"
+	{
+		"volume"	"0.13"
+		"wave"		"ambient/industrial/amb_paint_shaker_lp_01.wav"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_NONE"
+	}
+
+	"playsoundscape"
+	{ 
+		"name"	"eidolon_main"
+		"volume"	"0.15"
+	} 
+}
+
+
+"eidolon_main"
+{
+	"dsp"	"105"
+
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"wave"		"ambient/piano_drone_lp.wav"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_NONE"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.84"
+		"pitch"		"100"
+		"time"		"35.0, 85.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_75dB"
+		"rndwave"
+		{
+			"wave"	"ambient/etherpiano_0.wav"
+			"wave"	"ambient/etherpiano_1.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"time"		"45.0, 125.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_65dB"
+		"rndwave"
+		{
+			"wave"	"ambient/outro.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"time"		"25.0,55.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_100dB"
+		"rndwave"
+		{
+			"wave"	"ambient/sinewail.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.6"
+		"pitch"		"100"
+		"time"		"90.0, 195.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_85dB"
+		"rndwave"
+		{
+			"wave"	"ambient/piano.wav"
+		}
+	}
+}
