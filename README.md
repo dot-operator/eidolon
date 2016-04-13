@@ -1,4 +1,2 @@
 # eidolon
-Eidolon portal 2 sourcemod; goes in /sourcemods
-
-You're supposed to be doing menu scripting GOSH
+Eidolon is a portal 2 sourcemod; goes in your steamapps/sourcemods folder (which should already exist)
