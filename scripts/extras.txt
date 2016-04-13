@@ -5,7 +5,7 @@
 	    	"title"		"The Beginning"
 	    	"subtitle"	"Chapter 1"
 	    	"command"	"map sp_a1_beginning"
-	    	"pic"		"vgui/loading_screens/1"
+	    	
 	}
 	
 	"eid1"
@@ -13,7 +13,7 @@
 	    	"title"		"Funk Detail"
 	    	"subtitle"	"Chapter 3"
 	    	"command"	"map sp_a3_funk_detail"
-	    	"pic"		"vgui/loading_screens/3"
+	    	
 	}
 	
 	"eid2"
@@ -21,7 +21,7 @@
 	    	"title"		"Slanted Lasers"
 	    	"subtitle"	"Chapter 4"
 	    	"command"	"map sp_a4_slantedlasers2"
-	    	"pic"		"vgui/loading_screens/4_4"
+	    	
 	}
 	
 	"eid3"
@@ -29,6 +29,6 @@
 	    	"title"		"Eidolon"
 	    	"subtitle"	"Chapter 5"
 	    	"command"	"map sp_a5_eidolon3"
-	    	"pic"		"vgui/loading_screens/1"
+	    	
 	}
 }
