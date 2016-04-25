@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "papery/jump_pad"
+	"$surfaceprop" "paper"
+	"%keywords" "vansulli,colossal,20brush"
+	"$translucent" 1
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "5"
+		}
+	}
+}

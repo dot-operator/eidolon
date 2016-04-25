@@ -1,0 +1,7 @@
+LightMappedGeneric
+{
+$reflectivity "[.4 .4 .4]"
+$basetexture "dev/_40"
+$bumpmap "concrete/concretefloor010b_normal"
+$surfaceprop concrete
+}

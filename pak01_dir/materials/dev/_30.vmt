@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$envmap env_cubemap
+$envmaptint "[0.3 0.3 0.3]"
+$basetexture "Dev/reflectivity_30"
+$surfaceprop concrete
+}

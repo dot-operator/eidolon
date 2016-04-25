@@ -1,0 +1,10 @@
+LightMappedGeneric
+{
+$reflectivity "[.5 .5 .5]"
+$envmap env_cubemap
+$envmapfresnel "1.0"
+$envmaptint "[0.05 0.05 0.05]"
+$basetexture "dev/_50"
+$bumpmap "concrete/concretefloor001a_normal"
+$surfaceprop concrete
+}

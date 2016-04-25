@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jb_edge/darkglass"
+	"$envmapmask" "jb_edge/surface_spec"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .25 .4]"
+	"$surfaceprop" "glass"
+	"$translucent" 1
+	"%keywords" "colossal, jb, edge, vansulli"
+}

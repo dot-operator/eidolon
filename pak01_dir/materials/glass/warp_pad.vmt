@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jb_edge/darkglass"
+	"$envmapmask" "jb_edge/surface_spec"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .13 .2]"
+	"$surfaceprop" "glass"
+	"%keywords" "steven, warp, pad, eidolon"
+}

@@ -1,0 +1,16 @@
+Refract
+{
+	$refracttint "{226 259 250}"
+	$normalmap "custom/nature/waterfall_n"
+	$refractamount .09
+	$bluramount .13
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar $bumpTransform
+			texturescrollrate 1.2
+			texturescrollangle 270.00
+		}
+	}
+}

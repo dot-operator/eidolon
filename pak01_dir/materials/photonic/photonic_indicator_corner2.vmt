@@ -1,0 +1,17 @@
+UnlitGeneric
+{
+$baseTexture "photonic/photonic_indicator_corner2"
+$surfaceprop glass
+$translucent 1
+"%keywords" portal
+$decal 1
+Proxies
+{
+ToggleTexture
+{
+toggleTextureVar $baseTexture
+toggleTextureFrameNumVar $frame
+toggleTextureShouldWrap 0
+}
+}
+}

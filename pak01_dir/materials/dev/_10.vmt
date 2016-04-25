@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+
+$basetexture "Dev/_10"
+$surfaceprop concrete
+"%noportal" 1
+}

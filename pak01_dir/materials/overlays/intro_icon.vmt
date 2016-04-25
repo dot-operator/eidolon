@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+$basetexture "overlays/intro_icon"
+$surfaceprop concrete
+$translucent 1
+$decal 1
+}

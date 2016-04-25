@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+$envmap env_cubemap
+$envmapfresnel "1.0"
+$envmaptint "[0.4 0.4 0.4]"
+$basetexture "dev/ol_40"
+$surfaceprop metal
+}
