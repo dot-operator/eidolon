@@ -1,6 +1,6 @@
 UnlitGeneric
 {
-$basetexture "vgui/portal2logo"
+$basetexture "vgui/eid_logo_light"  // CHANGE TO "eid_logo_dark" IF TOO LIGHT!
 $translucent 1
 $vertexcolor 1
 $vertexalpha 1
