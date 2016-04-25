@@ -5,30 +5,30 @@
 	    	"title"		"The Beginning"
 	    	"subtitle"	"Chapter 1"
 	    	"command"	"map sp_a1_beginning"
-	    	
+	    	"pic"		"vgui/chapters/ch_beg"
 	}
 	
 	"eid1"
 	{
 	    	"title"		"Funk Detail"
-	    	"subtitle"	"Chapter 3"
+	    	"subtitle"	"Chapter 2"
 	    	"command"	"map sp_a3_funk_detail"
-	    	
+	    	"pic"		"vgui/chapters/ch_funk"
 	}
 	
 	"eid2"
 	{
 	    	"title"		"Slanted Lasers"
-	    	"subtitle"	"Chapter 4"
+	    	"subtitle"	"Chapter 3"
 	    	"command"	"map sp_a4_slantedlasers2"
-	    	
+	    	"pic"		"vgui/chapters/ch_slant"
 	}
 	
 	"eid3"
 	{
 	    	"title"		"Eidolon"
-	    	"subtitle"	"Chapter 5"
+	    	"subtitle"	"Chapter 4"
 	    	"command"	"map sp_a5_eidolon3"
-	    	
+	    	"pic"		"vgui/chapters/ch_eid"
 	}
 }

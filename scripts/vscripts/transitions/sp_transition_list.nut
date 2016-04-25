@@ -29,6 +29,9 @@ function DisplayChapterTitle()
 			EntFire( "@chapter_title_text", "SetText", level.title_text, 0.0 )
 			EntFire( "@chapter_title_text", "display", "", level.displaydelay )
 			
+			//lol
+			EntFire( "entry_sound", "PlaySound", "", 0.0)
+			
 			//EntFire( "@chapter_subtitle_text", "SetTextColor", "210 210 210 128", 0.0 )
 			//EntFire( "@chapter_subtitle_text", "SetTextColor2", "50 90 116 128", 0.0 )
 			//EntFire( "@chapter_subtitle_text", "SetPosY", "0.35", 0.0 )
