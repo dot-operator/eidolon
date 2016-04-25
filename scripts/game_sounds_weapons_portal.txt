@@ -150,8 +150,8 @@
 "Weapon_Portalgun.HoldSound"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.5"
-	"soundlevel"		"SNDLVL_50db"
+	"volume"		"0.1"
+	"soundlevel"		"SNDLVL_25db"
 	"pitch"			"50"
 	"wave"			"player/hold_loop.wav"
 }
