@@ -36,7 +36,7 @@
 			}
 			"duration_div"
 			{
-				"input2" "17"
+				"input2" "39.0"
 			}
 		}
 		"update_stack"
@@ -78,7 +78,7 @@
 			}
 			"duration_div"
 			{
-				"input2" "17"
+				"input2" "39.0"
 			}
 		}
 		"update_stack"
@@ -517,6 +517,81 @@
 			"beats"
 			{
 				"input2" "16"	
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "160"
+			}
+			"occlusion"
+			{
+				"input_scalar" "0.5"
+			}
+		}
+	}
+}
+
+// SP_A4_SLANTEDLASERS2
+"music.slant_a"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"0.6"
+	
+	"wave"	"*music/a4_1_lp.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "160"
+			}
+			"occlusion"
+			{
+				"input_scalar" "0.5"
+			}
+		}
+	}
+}
+"music.slant_b"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"0.6"
+	
+	"wave"	"*music/a4_2_lp.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.slant_a"
+			}
+			"duration_div"
+			{
+				"input2" "0.03"
 			}
 		}
 		"update_stack"
