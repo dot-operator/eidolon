@@ -36,7 +36,7 @@
 			}
 			"duration_div"
 			{
-				"input2" "17"
+				"input2" "39.0"
 			}
 		}
 		"update_stack"
@@ -78,7 +78,7 @@
 			}
 			"duration_div"
 			{
-				"input2" "17"
+				"input2" "39.0"
 			}
 		}
 		"update_stack"
@@ -543,8 +543,8 @@
 "music.slant_a"
 {
 	"channel"		"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_85dB"
-	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"0.6"
 	
 	"wave"	"*music/a4_1_lp.wav"
 	
@@ -573,8 +573,8 @@
 "music.slant_b"
 {
 	"channel"		"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_85dB"
-	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"0.6"
 	
 	"wave"	"*music/a4_2_lp.wav"
 	
