@@ -1,6 +1,6 @@
 vertexlitgeneric
 {
-$baseTexture "models/props/reflection_cube_glass_diff"
+$baseTexture "models/props/reflecto_cube_glass"
 $bumpmap "models/props/reflecto_cube_glass_normal"
 $translucent 1
 $multipass 1
