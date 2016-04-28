@@ -14,5 +14,6 @@ Feedback from
 - Groxmapper
 - omnicoder
 - Reepblue
+- Snood
 - stegarootbeer
 - Yohoat
