@@ -1,11 +1,11 @@
 UnlitGeneric
 {
-$basetexture "vgui\loading_screens\loadingscreen_a5_1"
+$basetexture "vgui/chapters/ch_5"
+$translucent 1
 $vertexcolor 1
 $vertexalpha 1
 $ignorez 1
+$additive 0
 $no_fullbright 1
-$nolod 1
-"%keywords" tf
 $SHADERSRGBREAD360 1
 }
